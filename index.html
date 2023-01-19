@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="night">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,5 +7,104 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>CGS Properties</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </label>
+          <ul
+            tabindex="0"
+            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>About Us</a></li>
+            <li tabindex="0">
+              <a class="justify-between">
+                Properties
+                <svg
+                  class="fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                </svg>
+              </a>
+              <ul class="p-2">
+                <li><a>3746 Gunderson</a></li>
+                <li><a>3733 Clarence</a></li>
+              </ul>
+            </li>
+            <li><a>Tenant Portal</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost normal-case text-xl">CGS Properties</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>About Us</a></li>
+          <li tabindex="0">
+            <a>
+              Properties
+              <svg
+                class="fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24">
+                <path
+                  d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </a>
+            <ul class="p-2">
+              <li><a>3746 Gunderson</a></li>
+              <li><a>3733 Clarnece</a></li>
+            </ul>
+          </li>
+          <li><a>Tenant Portal</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn">Rent Now!</a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+
+    <div class="hero min-h-screen bg-base-200">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img src="./assets/3746.jpeg" class="max-w-sm rounded-lg shadow-2xl" />
+        <div>
+          <h1 class="text-5xl font-bold">South Berwyn Apartments</h1>
+          <p class="py-6">
+            Our apartments are spacious, well kept and located close to I-55,
+            I-290 and Metra Rail Lines. Click below to see our current
+            availability.
+          </p>
+          <button class="btn btn-primary">View Availability</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer footer-center p-4 bg-base-300 text-base-content">
+      <div>
+        <p>Copyright © 2023 - All right reserved by CGS Properties</p>
+      </div>
+    </footer>
+  </body>
 </html>
